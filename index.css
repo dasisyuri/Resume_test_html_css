@@ -196,8 +196,11 @@ a {
     font-family: inherit;
     padding: 5px;
     margin-bottom: 20px;
-    
 }
+
+::placeholder{
+    opacity: 0.4;
+ }
 
 .form-row{
     display: flex;
